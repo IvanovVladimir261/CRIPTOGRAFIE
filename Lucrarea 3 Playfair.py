@@ -1,6 +1,5 @@
 alphabet_upper = "AĂÂBCDEFGHIÎJKLMNOPQRSȘTȚUVWXYZ"
-# alfabetul folosit in matrice (30 litere, fara J)
-alphabet_matrix = "AĂÂBCDEFGHIÎKLMNOPQRSȘTȚUVWXYZ"
+alphabet_matrix = "AĂÂBCDEFGHIÎKLMNOPQRSȘTȚUVWXYZ" + "01234"
 LINII = 6
 COLOANE = 6
  
