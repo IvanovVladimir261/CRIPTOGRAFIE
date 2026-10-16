@@ -1,7 +1,7 @@
 alphabet_upper = "AĂÂBCDEFGHIÎJKLMNOPQRSȘTȚUVWXYZ"
 # alfabetul folosit in matrice (30 litere, fara J)
 alphabet_matrix = "AĂÂBCDEFGHIÎKLMNOPQRSȘTȚUVWXYZ"
-LINII = 5
+LINII = 6
 COLOANE = 6
  
 # afisam optiunile si citirea de la tastatura
@@ -32,10 +32,6 @@ for litera in cheie:
     if litera not in alphabet_upper:
         print("Cheia trebuie sa contina doar litere din alfabetul roman")
         exit(1)
-    # inlocuim J cu I
-    if litera == "J":
-        litera = "I"
-    cheie_majuscule += litera
  
 # eliminam literele care se repeta in cheie 
 cheie_finala = ""
@@ -58,10 +54,6 @@ for litera in text:
     if litera not in alphabet_upper:
         print("Text invalid! Sunt acceptate doar literele din alfabetul roman")
         exit(1)
-    # inlocuim J cu I
-    if litera == "J":
-        litera = "I"
-    text_final += litera
  
 # verificam daca textul nu e gol
 if len(text_final) == 0:
